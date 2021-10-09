@@ -52,3 +52,5 @@ Themes:
     +Viking
     +Manga/Anime
     -Foret/Nature
+
+    TestSync
