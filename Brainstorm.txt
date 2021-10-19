@@ -1,4 +1,11 @@
-FrancisLaLAN.fr
+Sujet n°2 : gestion d'évènements.
+Nous souhaitons développer une application permettant de gérer une liste d'évènements (des concours de bridge,
+des séminaires, des LAN). Au sein de chaque évènement, il est possible d'organiser des activités auxquelles les
+participants de l'évènement doivent s'inscrire. Cela peut être des séminaires ou des concours (concours de buvette,
+courses en sac, etc.). Pour ces derniers, il est possible d'avoir un classement où des points seraient attribués. Un comité
+d'organisation est en charge de chaque évènement. D'un point de vue de l'organisation, il y a un ensemble de tâches
+à effectuer qui sont attribuées à des organisateurs. Il est possible ensuite d'ajouter des messages associés à chaque
+tâche, d'afficher des états (terminé, en cours, non commencé), ainsi qu'une date limite
 
 Besoin Visiteur:
     Voir les evenements
@@ -6,13 +13,21 @@ Besoin Visiteur:
         Utilisateur:
             Organisateur:
                 Ceer un evenement:
-                    type: LAN/Concert/Seminaire
-                    PAF
-                    Lots
-                    nbParticipant max
-                    nomEvenement
+                	type: LAN/Concert/Seminaire/Concour
+                	PAF
+                	Lots
+                	nbParticipant max
+                	nomEvenement
+			Creer des activités
+				Description
+				Nombre de participant
+				Nombre de point au(x) gagnant(s)
                 Voir tout les evenements creer
                 Voir les prochains evenements
+		Inviter des personnes pour etre organisateur
+		Definir une liste de choise a faire (+suivi -> etat et date limite)
+		Attribué les taches aux autres gestionnaires (si il y en a)
+		Envoyer des mails aux autres organisateurs
                 Envoyer une invitation a l'evenment
                 Different tier:
                     gratuit (juste une commission), nombre limité de participant, uniquement acces a la gestion de participant
